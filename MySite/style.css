@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    height: 100%;
+    width: auto;
+    /* box-sizing: border-box; */
+    border: none;
+    outline: none;
+
+    background-image: linear-gradient(130deg, #6e2d81, rgb(61, 55, 97) 60%);
+    background-attachment: fixed;
+    overflow: hidden;
+    transition: 1s;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-ExtraBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MontserratLight';
+    src: url('Montserrat-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* #bg{
+} */
+
+/* #header:hover{
+    top: 50%;
+    cursor: default;
+    box-shadow: white;
+} */
+
+#pngDev{
+    padding: 10px;
+    width: 16%;
+    height: auto;
+    position: relative;
+}
+
+
+#linkedinID{
+    width: 3%;
+    height: auto;
+    display: inline;
+    position: absolute;
+    padding: 10px;
+    right: 57%;
+    top: 3%;
+}
+
+#linkedinText{
+    font-family: 'MontserratLight';
+    font-size: 30px;
+    color: rgb(255, 94, 0);
+    display: inline-block;
+    height: auto;
+    position: absolute;
+    top: 5%;
+    right: 39%;
+}
+
+#emailID{
+    width: 3%;
+    height: auto;
+    display: inline;
+    position: absolute;
+    padding: 10px;
+    right: 57%;
+    top: 11.5%;
+}
+
+#emailText{
+    font-family: 'MontserratLight';
+    font-size: 30px;
+    color: rgb(255, 94, 0);
+    display: inline-block;
+    height: auto;
+    position: absolute;
+    top: 13.6%;
+    right: 27.4%;
+}
+
+#gitID{
+    width: 3%;
+    height: auto;
+    display: inline;
+    position: absolute;
+    padding: 10px;
+    right: 57%;
+    top: 20%;
+}
+
+#gitText{
+    font-family: 'MontserratLight';
+    font-size: 30px;
+    color: rgb(255, 94, 0);
+    display: inline-block;
+    height: auto;
+    position: absolute;
+    right: 43%;
+    top: 22%;
+}
+
+#nameText{
+    font-family: 'Montserrat';
+    font-size: 75px;
+    color: rgb(255, 94, 0);
+    display: inline-block;
+    height: auto;
+    position: static;
+}
+
+#separacao{
+    border-left: 5px solid rgb(255, 94, 0);
+    height: 260px;
+    position: fixed;
+    right: 61.8%;
+    top: 2%;
+}
+
+/* #nameText:hover{
+    font-size: 93px;
+    transition: 0.5s;
+    cursor: default;
+} */
